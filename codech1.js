@@ -13,7 +13,7 @@ const kateData2 = [10, 5, 6, 1, 4];
 const checkDogs = function (dogsJulia, dogsKate) {
   //1. Create a shallow copy of dogsJulia
   const dogsJuliaCopy = dogsJulia.slice(1, -2);
-  console.log(dogsJuliaCopy, dogsKateCopy);
+  console.log(dogsJuliaCopy);
   console.log(dogsJulia, dogsKate); // To confirm parameters weren't mutated
 
   // Refactoring
@@ -29,7 +29,7 @@ const checkDogs = function (dogsJulia, dogsKate) {
   });
 
   console.log('--- KATE ---');
-  dogsKateCopy.forEach(function (age, i) {
+  dogsKate.forEach(function (age, i) {
     displayStudy(age, i);
   });
 };
@@ -57,8 +57,7 @@ const checkDogs = function(dogsJulia, dogsKate){
         }
     })
 
-}
-
+};
 checkDogs([3,5,2,12,7], [4,1,15,8,3]);
 checkDogs([9,16,6,8,3], [10,5,6,1,4])
 */
