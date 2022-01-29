@@ -28,7 +28,7 @@ What do I actually want from this method?
         .filter / (element, index, array => condition)
 
     - Portion of original:
-        .slice / (start, end)
+        .slice / (start, end) (creates a shallow copy)
 
     - Adding original to other:
         .concat / (array to combine, put after)
