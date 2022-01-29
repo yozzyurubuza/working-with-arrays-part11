@@ -79,6 +79,7 @@ console.log(dogsCopy);
 
 // Jonas Schmedtmann Implementation
 
+/*
 // 1.
 
 dogs.forEach(dog => (dog.recFood = Math.trunc(dog.weight ** 0.75 * 28)));
@@ -130,3 +131,5 @@ console.log(dogs.filter(checkEatingOkay));
 const dogsSorted = dogs.slice().sort((a,b) => a.recFood - b.recFood);
 
 console.log(dogsSorted);
+
+*/
